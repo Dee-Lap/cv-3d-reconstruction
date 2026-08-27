@@ -102,19 +102,19 @@ The pipeline was validated across the full motion capture sequence (~25,000 fram
 
 The 3D joints projected into each camera view overlay accurately on the video frames:
 
-![2D Projection](docs/images/projection_example.png)
+![2D Projection](docs/projection_example.png)
 
 ### 3D Reconstruction
 
 Original skeleton (blue) vs. reconstructed skeleton (red). The two overlap almost perfectly:
 
-![3D Reconstruction](docs/images/3d_reconstruction_example.png)
+![3D Reconstruction](docs/3d_reconstruction_example.png)
 
 ### Epipolar Geometry
 
 Epipolar lines visualized between the two camera views (right ankle highlighted in green):
 
-![Epipolar Lines](docs/images/epipolar_lines.png)
+![Epipolar Lines](docs/epipolar_lines.png)
 
 ---
 
