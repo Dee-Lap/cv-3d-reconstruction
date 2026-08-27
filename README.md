@@ -12,7 +12,7 @@ This project implements the core geometry that links 3D world coordinates to 2D 
 2. **Backprojects** 2D pixels into 3D viewing rays (inverse projection)
 3. **Triangulates** pairs of rays from two cameras to recover the original 3D point
 
-The pipeline is validated on real motion capture data (~25,000 frames, 12 joints per frame) and achieves reconstruction error on the order of **10⁻¹¹**;essentially perfect, limited only by floating-point precision.
+The pipeline is validated on real motion capture data (~25,000 frames, 12 joints per frame) and achieves reconstruction error on the order of **10⁻¹¹**. This is essentially perfect, limited only by floating-point precision.
 
 ---
 
